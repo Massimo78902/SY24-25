@@ -11,10 +11,10 @@
         <Image x:Name="NyYankees" HorizontalAlignment="Left" Height="322" Margin="10,77,0,0" VerticalAlignment="Top" Width="511" Source="/nyyankees.jpg" Visibility="Hidden"/>
         <Image x:Name="Az" HorizontalAlignment="Left" Height="322" Margin="10,77,0,0" VerticalAlignment="Top" Width="511" Source="/dbacks.png" Visibility="Hidden"/>
         <Image x:Name="La" HorizontalAlignment="Left" Height="368" Margin="82,66,0,0" VerticalAlignment="Top" Width="510" Source="/dodgers.png" RenderTransformOrigin="0.538,0.519" Visibility="Hidden"/>
-        <Label x:Name="WorldSeriesWinsTextBox" Content="World Series Wins:" HorizontalAlignment="Left" Margin="543,77,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="16"/>
-        <Label x:Name="LeagueTextBox" Content="League:" HorizontalAlignment="Left" Margin="543,142,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="16"/>
-        <Label x:Name="YearEstablishedTextBox" Content="Year Established:" HorizontalAlignment="Left" Margin="543,212,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="16"/>
-        <Label x:Name="StadiumCityTextBox" Content="City of Home Stadium:" HorizontalAlignment="Left" Margin="543,277,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="16"/>
+        <Label x:Name="WorldSeriesWinsTextBox" Content="World Series Wins:" HorizontalAlignment="Left" Margin="543,77,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="10"/>
+        <Label x:Name="LeagueTextBox" Content="League:" HorizontalAlignment="Left" Margin="543,142,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="10"/>
+        <Label x:Name="YearEstablishedTextBox" Content="Year Established:" HorizontalAlignment="Left" Margin="543,212,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="10"/>
+        <Label x:Name="StadiumCityTextBox" Content="City of Home Stadium:" HorizontalAlignment="Left" Margin="543,277,0,0" VerticalAlignment="Top" Height="65" Width="229" FontSize="10"/>
         <Button x:Name="AzButton" Content="Arizona DiamondBacks" HorizontalAlignment="Left" Margin="246,12,0,0" VerticalAlignment="Top" Height="49" Width="255" FontSize="24" Background="#FF90110C"/>
         <Button x:Name="LaButton" Content="Los Angeles Dodgers" HorizontalAlignment="Left" Margin="543,12,0,0" VerticalAlignment="Top" Height="49" Width="229" Background="#FF0EA9F4" FontSize="24"/>
 
