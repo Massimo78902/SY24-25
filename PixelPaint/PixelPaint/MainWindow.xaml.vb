@@ -63,4 +63,36 @@ Class MainWindow
             Next
         Next
     End Sub
+
+    Private Sub Every_Other_Row_Click(sender As Object, e As RoutedEventArgs) Handles Every_Other_Row.Click
+        For row = 0 To 9 Step 2
+            For col = 0 To 9
+                getRect(row * 10 + col).Fill = Brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub Every_Other_Column_Click(sender As Object, e As RoutedEventArgs) Handles Every_Other_Column.Click
+        For index = 0 To 99 Step 2
+            getRect(index).Fill = Brush1.Fill
+        Next
+    End Sub
+
+    Private Sub Bottom_Right_Click(sender As Object, e As RoutedEventArgs) Handles Bottom_Right.Click
+        For row = 5 To 9
+            For col = 5 To 9
+                getRect(row * 10 + col).Fill = Brush1.Fill
+            Next
+        Next
+    End Sub
+
+    Private Sub Button_Click_3(sender As Object, e As RoutedEventArgs)
+        For row = 0 To 9
+            For col = 0 To 9
+                If row >= col Then
+                    getRect(row * 10 + col).Fill = Brush1.Fill
+                End If
+            Next
+        Next
+    End Sub
 End Class

@@ -167,6 +167,10 @@
         <Button x:Name="Bottom" Content="Bottom" HorizontalAlignment="Left" Margin="856,405,0,0" VerticalAlignment="Top" Height="87" Width="137" FontSize="24"/>
         <Button Content="Left" HorizontalAlignment="Left" Margin="856,196,0,0" VerticalAlignment="Top" Height="79" Width="137" FontSize="24" Click="Button_Click_2"/>
         <Button x:Name="Right" Content="Right" HorizontalAlignment="Left" Margin="856,101,0,0" VerticalAlignment="Top" Height="73" Width="137" FontSize="24"/>
+        <Button x:Name="Bottom_Right" Content="Bottom Right" HorizontalAlignment="Left" Margin="33,668,0,0" VerticalAlignment="Top" Height="42" Width="220" FontSize="24"/>
+        <Button x:Name="Bottom_Left_Half" Content="Bottom Left Half" HorizontalAlignment="Left" Margin="33,717,0,0" VerticalAlignment="Top" Height="42" Width="220" FontSize="24" Click="Button_Click_3"/>
+        <Button x:Name="Every_Other_Column" Content="Every Other Column" HorizontalAlignment="Left" Margin="340,668,0,0" VerticalAlignment="Top" Height="42" Width="316" FontSize="24"/>
+        <Button x:Name="Every_Other_Row" Content="Every Other Row" HorizontalAlignment="Left" Margin="340,717,0,0" VerticalAlignment="Top" Height="42" Width="316" FontSize="24"/>
 
     </Grid>
 </Window>
